@@ -8,18 +8,18 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your session ID",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"4LJXDcgvU6Mraex/pWI1dV+J5iQBNToFEGOHuw59xnM="},"public":{"type":"Buffer","data":"WU76CzeaTie/CCHyt4caAtC+N2OziZPtaVNxlSFJoDY="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"yA4eOx484Lu6M30FXxuCRGSj42qobzh2PKIRSbe1Hm4="},"public":{"type":"Buffer","data":"FHXtSlEw0cyUHlUMwi4/Ny16W3IJZNwUb9jnW5ltP1c="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"4DHnyV4oFxjy1J8IK28oCG4QPJmzVs0tVWhpsK+eK2I="},"public":{"type":"Buffer","data":"eo4+n5j3KF4Qqu5NAdKd5LNwC2PuHrkRbXxxIF0HcF8="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"UBPQviUNwWtSads/GvQCxHAtvHarMtcxbMPAtZjX5nI="},"public":{"type":"Buffer","data":"MqgfujpHGPflrHm5sNPZQKBFw2cCFkMlsXF3Zog2u1E="}},"signature":{"type":"Buffer","data":"SI7RdRQ0j3RmmjPNcErdWxwE3n3w3zfLDB3+G9O6Txae0srDIaR3DRw2H5xJih2y0KorMmX4oOYJse61LO8RAg=="},"keyId":1},"registrationId":82,"advSecretKey":"PBg9SxOEl+fd3dP86KI+Bdmg1S064DTWf5RXNJ2ukv8=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"nCubAHTzTUmrgBCcnzA7Dg","phoneId":"d2746957-9d91-459a-a33d-4bb03e63c0b3","identityId":{"type":"Buffer","data":"9S+Aq9+IUhlFUuEaZBPDftvmV5c="},"registered":true,"backupToken":{"type":"Buffer","data":"GE3fMd65NWEq6Xa5g0ZUCvfdmFY="},"registration":{},"pairingCode":"GNK5ZQR6","me":{"id":"237692548624:8@s.whatsapp.net","name":"La Mélodie"},"account":{"details":"CKiH2bEEEO+d1r0GGAYgACgA","accountSignatureKey":"IsUVkWMzvM1Aur0E0SHkMx4sLVpRcvZQ9HXiQX78R0Y=","accountSignature":"uWIPrFp5grO7Ex+0TqXfM+wLvmFwpldtpnqDZNcfxfmaj1rMIA48TMmOK3Yo9jYlrp4aJdk6lZeNiO70aNd3AA==","deviceSignature":"TKlo1iySRuvhP/PnICv1thzfz9uM7kfm8eybOS/Vi8t38vt5t+bYkIYCA/rSUQ080MFJ7FOGyD/gQ2xy3x4LCA=="},"signalIdentities":[{"identifier":{"name":"237692548624:8@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BSLFFZFjM7zNQLq9BNEh5DMeLC1aUXL2UPR14kF+/EdG"}}],"platform":"smba","lastAccountSyncTimestamp":1739951869,"myAppStateKeyId":"AAAAAAcH"}",
       "value": "",
       "required": true
     },
     "OWNER_NUMBER": {
-      "description": "Enter the number that is hosting the bot (e.g., 2349066528353)",
+      "description": "Enter the number that is hosting the bot (e.g., 237692548624)",
       "value": "2349066528353",
       "required": true
     },
     "OWNER_NUMBERS": {
-      "description": "Enter the bot owner's number (e.g., 2349066528353)",
-      "value": "2349066528353",
+      "description": "Enter the bot owner's number (e.g., 237692548624)",
+      "value": "237692548624",
       "required": true
     },
     "PREFIX": {
@@ -29,12 +29,12 @@
     },
     "PACK_NAME": {
       "description": "Name of the sticker pack",
-      "value": "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟑",
+      "value": "LA MELODIE",
       "required": false
     },
     "AUTHOR": {
       "description": "Author name",
-      "value": "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋",
+      "value": "EL LAPAIX",
       "required": false
     },
     "PUBLIC": {
